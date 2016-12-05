@@ -60,6 +60,14 @@ h1 {
 	font-size: 128px;
 	font-weight: 700;
 	text-align: center;
+	-webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+	cursor: pointer;
+	cursor: hand;
 }
 
 .sitename > a {
@@ -95,34 +103,16 @@ h1 {
 
 /* ************** */
 
-.terms {
-	margin-bottom: 25px;
-	background: rgba(0, 0, 0, 0.13);
-	padding: 15px 35px;
-	border-radius: 2px;
-}
-
 .question {
-	padding: 10px 0px;
+	padding: 10px 20px;
 	font-weight: bold;
 	text-transform: uppercase;
-	text-indent: 40px;
 	background: rgba(0, 0, 0, 0.13);
 	border-radius: 2px;
 }
 
 .answer {
-	padding: 10px 10px 40px 20px;
-}
-
-/* ************** */
-
-.tools > h1 {
-	background: rgba(0, 0, 0, 0.13);
-}
-
-.tools > p {
-	padding: 10px 10px 40px 20px;
+	padding: 10px 20px 40px 20px;
 }
 
 /* ************** */
@@ -137,11 +127,11 @@ h1 {
 	display: inline-block;
 }
 
-.footer>ul>li:not(:first-child):before {
+.footer > ul > li:not(:first-child):before {
 	content: " ・ ";
 }
 
-.footer>ul>li>a {
+.footer > ul > li > a {
 	color: #fff;
 	font-size: 18px;
 	text-decoration: none;
