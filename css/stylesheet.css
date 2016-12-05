@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+/* ************** */
+
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 25px;
+	background: #516ca9;
+	color: #fff;
+	text-align: justify;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+hr {
+	border-top: 1px solid #1d1d1d;
+	border-bottom: none;
+}
+input, select {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+textarea:focus, input:focus {
+	outline: none;
+}
+::-webkit-input-placeholder {
+	color: #ffffff;
+}
+:-moz-placeholder {
+	color: #ffffff;
+}
+::-moz-placeholder {
+	color: #ffffff;
+}
+:-ms-input-placeholder {
+	color: #ffffff;
+}
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 10px 25px;
+}
+
+/* ************** */
+
+.container {
+	margin: auto;
+	max-width: 540px;
+}
+
+/* ************** */
+
+.sitename {
+	color: #fff;
+	font-size: 128px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.sitename > a {
+	text-decoration: none;
+}
+
+.sitedesc {
+	color: #fff;
+	margin: 10px 0px 32px 0px;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* ************** */
+
+.center {
+	text-align: center;
+}
+
+.email {
+	margin-top: 25px;
+	padding: 10px 25px;
+	color: #ffffff;
+	background: rgba(0,0,0,0.12);
+	text-align: center;
+	width: 100%;
+	border: none;
+	border-radius: 2px;
+	font-size: 16px;
+}
+
+/* ************** */
+
+.terms {
+	margin-bottom: 25px;
+	background: rgba(0, 0, 0, 0.13);
+	padding: 15px 35px;
+	border-radius: 2px;
+}
+
+.question {
+	padding: 10px 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-indent: 40px;
+	background: rgba(0, 0, 0, 0.13);
+	border-radius: 2px;
+}
+
+.answer {
+	padding: 10px 10px 40px 20px;
+}
+
+/* ************** */
+
+.tools > h1 {
+	background: rgba(0, 0, 0, 0.13);
+}
+
+.tools > p {
+	padding: 10px 10px 40px 20px;
+}
+
+/* ************** */
+
+.footer {
+	width: 100%;
+	text-align: center;
+	margin: 40px 0px;
+}
+
+.footer>ul>li {
+	display: inline-block;
+}
+
+.footer>ul>li:not(:first-child):before {
+	content: " ・ ";
+}
+
+.footer>ul>li>a {
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
