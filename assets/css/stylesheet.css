@@ -15,6 +15,9 @@ a {
 	color: #fff;
 	text-decoration: none;
 }
+b {
+	font-weight: bold;
+}
 hr {
 	border-top: 1px solid #1d1d1d;
 	border-bottom: none;
@@ -45,6 +48,15 @@ h1 {
 	margin-bottom: 10px;
 	padding: 10px 25px;
 }
+.answer > div > ul {
+	list-style-type: disc;
+	margin-left: 48px;
+	padding: 10px 0px 0px 0px;
+}
+.answer > div > ul:first-child {
+	padding: 10px 0px 10px 0px;
+}
+
 
 /* ************** */
 
