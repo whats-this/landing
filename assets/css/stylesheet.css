@@ -7,7 +7,7 @@ body, html {
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 	padding-top: 25px;
-	background: #516ca9;
+	background: #448CCB;
 	color: #fff;
 	text-align: justify;
 }
@@ -48,15 +48,12 @@ h1 {
 	margin-bottom: 10px;
 	padding: 10px 25px;
 }
-.answer > div > ul {
-	list-style-type: disc;
-	margin-left: 48px;
-	padding: 10px 0px 0px 0px;
+.answer > div > ul > a > li {
+	padding: 10px 5px;
 }
-.answer > div > ul:first-child {
-	padding: 10px 0px 10px 0px;
+.answer > div > ul > a > li:first-child {
+	padding: 10px 5px 10px 5px;
 }
-
 
 /* ************** */
 
@@ -104,8 +101,8 @@ h1 {
 .email {
 	margin-top: 25px;
 	padding: 10px 25px;
-	color: #ffffff;
-	background: rgba(0,0,0,0.12);
+	color: #448CCB;
+	background: #FFFFFF;
 	text-align: center;
 	width: 100%;
 	border: none;
@@ -119,7 +116,8 @@ h1 {
 	padding: 10px 20px;
 	font-weight: bold;
 	text-transform: uppercase;
-	background: rgba(0, 0, 0, 0.13);
+	background: #FFFFFF;
+	color: #448CCB;
 	border-radius: 2px;
 }
 
