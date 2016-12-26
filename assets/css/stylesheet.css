@@ -14,6 +14,7 @@ body, html {
 a {
 	color: #fff;
 	text-decoration: none;
+	cursor: pointer;
 }
 b {
 	font-weight: bold;
@@ -42,17 +43,19 @@ textarea:focus, input:focus {
 :-ms-input-placeholder {
 	color: #ffffff;
 }
+::selection {
+	background: #448CCB;
+	color: #FFFFFF;
+}
+::-moz-selection {
+	background: #448CCB;
+	color: #FFFFFF;
+}
 h1 {
 	font-size: 32px;
 	font-weight: bold;
 	margin-bottom: 10px;
 	padding: 10px 25px;
-}
-.answer > div > ul > a > li {
-	padding: 10px 5px;
-}
-.answer > div > ul > a > li:first-child {
-	padding: 10px 5px 10px 5px;
 }
 
 /* ************** */
@@ -103,6 +106,7 @@ h1 {
 	padding: 10px 25px;
 	color: #448CCB;
 	background: #FFFFFF;
+	font-weight: bold;
 	text-align: center;
 	width: 100%;
 	border: none;
@@ -126,6 +130,35 @@ h1 {
 	line-height: 20px;
 }
 
+.answer > div {
+	padding: 10px;
+	text-align: center;
+}
+
+.answer > div > ul > li {
+	padding: 15px 5px;
+	background: rgba(255,255,255,0.1);
+	margin: 5px;
+	text-align: center;
+}
+
+.answer > div > ul > a > li {
+	padding: 15px 5px;
+}
+
+.answer > .foot {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+ul > a > li {
+	background: rgba(255,255,255,0.1);
+	border-radius: 2px;
+	margin: 5px;
+	text-align: center;
+}
+
 /* ************** */
 
 .footer {
@@ -146,6 +179,7 @@ h1 {
 	color: #fff;
 	font-size: 18px;
 	text-decoration: none;
+	line-height: 18px;
 }
 
 /* ************** */
@@ -153,6 +187,14 @@ h1 {
 @media screen and (max-width: 580px) {
 	.container {
 		width: 90%;
+	}
+
+	.question {
+		text-align: left;
+	}
+
+	.answer {
+		padding: 10px 5px;
 	}
 
 	.footer>ul>li {
