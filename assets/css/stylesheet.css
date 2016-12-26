@@ -31,6 +31,13 @@ input, select {
 textarea:focus, input:focus {
 	outline: none;
 }
+body::-webkit-scrollbar {
+	width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #FFFFFF;
+	outline: 1px solid slategrey;
+}
 ::-webkit-input-placeholder {
 	color: #ffffff;
 }
