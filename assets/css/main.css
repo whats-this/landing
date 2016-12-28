@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
+body, html {
+  font-family: Roboto, sans-serif;
+  background: #448CCB;
+  color: #fff;
+  width: 100%; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+header {
+  margin-top: 2rem; }
+  header h1 {
+    font-weight: bold;
+    font-size: 8rem;
+    padding-top: 2%;
+    cursor: pointer; }
+  header h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: .8rem 0 0 0; }
+
+section {
+  margin-top: 2rem;
+  width: 40%;
+  max-width: 540px; }
+  section p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; }
+    section p a:hover {
+      color: #ccc; }
+  section input {
+    margin-top: 1.5rem;
+    padding: .6rem 5rem;
+    background: #fff;
+    color: #448CCB;
+    font-weight: bold;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    font-size: 1rem; }
+  section h4 {
+    padding: 0.6rem 1.25rem;
+    background: #fff;
+    color: #448CCB;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 2px; }
+  section #a {
+    padding: 0.6rem 1.25rem 2.5rem 1.25rem;
+    line-height: 1.25rem;
+    text-align: left; }
+    section #a a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold; }
+      section #a a:hover {
+        color: #ccc; }
+  section h5#a {
+    padding: 1rem;
+    text-align: center; }
+  section h6#a {
+    font-weight: bold;
+    padding: 0.6rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    text-align: center; }
+  section ul {
+    padding: 0.6rem 1.25rem 2.5rem 1.25rem; }
+    section ul a {
+      text-decoration: none; }
+      section ul a li {
+        color: #fff; }
+    section ul li {
+      padding: .9rem .3rem;
+      background: rgba(255, 255, 255, 0.1);
+      margin: .3rem;
+      text-align: center;
+      border-radius: 2px; }
+      section ul li a {
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer; }
+        section ul li a:hover {
+          color: #ccc; }
+
+footer {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 300px; }
+  footer ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around; }
+    footer ul li:not(:first-child)::before {
+      content: '・'; }
+    footer ul li {
+      flex-basis: 100px; }
+      footer ul li a {
+        color: #fff;
+        font-size: 1.1rem;
+        text-decoration: none;
+        line-height: 1.1rem; }
+        footer ul li a:hover {
+          color: #ccc; }
