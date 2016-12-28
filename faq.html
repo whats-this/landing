@@ -1,119 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>owo &middot; faq</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html><head><meta charset="utf-8"/><title>owo &middot; faq</title><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/><link rel="stylesheet" href="/assets/css/main.css"/><link rel="icon" type="image/png" href="assets/favicon.png"/></head><body><main><header><h1 id="owo">owo</h1><h3>Private pomf-compatible file host<br/>& Private polr URL shortener</h3></header><section><h4>Where is the data stored?</h4><p id="a">Our data is currently stored in Amazon S3 in the United States. All content is legal under the US law. This means we may be forced to remove
+copyrighted or illegal material. Basically, content has to be inline with
+the Amazon Standards (which can be found <a href="https://aws.amazon.com/aup/">here</a>).
+</p><h4>How do I use this service?</h4><p id="a">There are a ton of ways to hook into the API for OwO, if you're not very
+tech savvy (or just cant be bothered), theres a
+<a href="https://github.com/deansheather/owo.whats-th.is/wiki/Guide-for-ShareX">ShareX</a>
+and <a href="https://github.com/whats-this/owo.sh">MacOS/Linux</a> script,
+however if you want to write your own, or your script isnt supported please checkout the API <a href="https://github.com/whats-this/api">here</a>.
+</p><h4>Private? I wanna upload!</h4><p id="a">Currently, we're not accepting new users on the service, as we're
+constantly making improvements to our backend and distribution
+infrastructure and configuration. Shoot us an email and we'll get back
+to you at a later date.
+</p><h4>What's the maximum filesize I can upload?</h4><p id="a">Currently, the max filesize that you can upload to our server is 80MiB.
+This is to prevent large files taking up a lot of space, and costing a
+lot to store. In future this may be changed, but based on current demand
+its a solid point for filesizes.
+</p><h4>What filetypes are allowed?</h4><p id="a">All filetypes are viable to be uploaded now, however if you begin to upload
+dodgy things like viruses and your account constantly is under fire and
+throwing virus warnings your account <b>will be suspended</b>.
+</p><h4>What wrappers/libraries are there?</h4><h5 id="a">The current libraries/API's that you are able to hook into are:<ul><li><a href="https://github.com/whats-this/owo.rb" target="_blank">Ruby Wrapper </a>made by<a href="https://github.com/TriggerRimfire" target="_blank"> Luna</a></li><li><a href="https://github.com/whats-this/owo.py" target="_blank">Python Wrapper </a>made by<a href="https://github.com/martmists" target="_blank"> Martmists</a></li><li><a href="https://github.com/whats-this/owo.sh" target="_blank">Shell Script </a>made by<a href="https://github.com/jakeoid" target="_blank"> Jakeoid </a>&<a href="https://github.com/OkashiOdayakana" target="_blank"> Okashi</a></li><li><a href="https://github.com/whats-this/owo.go" target="_blank">Go Wrapper </a>made by<a href="https://github.com/zet4" target="_blank"> zet4</a></li></ul></h5><h4>On what domains can I find the service?</h4><h5 id="a">You can find the file hosting service on:</h5><ul><a href="https://owo.whats-th.is" target="_blank"><li>owo.whats-th.is</li></a><a href="https://i.am-a.ninja" target="_blank"><li>i.am-a.ninja</li></a><a href="https://buttsare.sexy" target="_blank"><li>buttsare.sexy</li></a><a href="https://nyanyanya.moe" target="_blank"><li>nyanyanya.moe</li></a><a href="https://i.stole-a-me.me" target="_blank"><li>i.stole-a-me.me</li></a><a href="https://can-i-ask-dean-on-a.date" target="_blank"><li>can-i-ask-dean-on-a.date</li></a><a href="https://all.foxgirlsare.sexy" target="_blank"><li>all.foxgirlsare.sexy</li></a></ul><h5 id="a">You can find the URL shortener service on:</h5><ul><a href="https://uwu.whats-th.is" target="_blank"><li>uwu.whats-th.is</li></a><a href="https://awau.moe" target="_blank"><li>awau.moe</li></a></ul><h6 id="a">NOTE: All these links will return you to whats-th.is</h6><h4>I don't like something hosted here.</h4><p id="a">We're sorry to hear about that. If any images infringe on your rights or
+the rights of an entity you represent, please shoot us an email
+<a href="mailto:dean@whats-th.is">here</a>.
+Make sure to provide us with the URL(s) of the files in question or we
+will be unable to take actions upon that user/the files.
 
-	<link type="text/css" rel="stylesheet" href="assets/css/reset.css"></link>
-	<link type="text/css" rel="stylesheet" href="assets/css/stylesheet.css"></link>
-	
-	<link rel="icon" type="image/png" href="assets/favicon.png" />
-</head>
-
-<body>
-	<div class="container">
-		<div class="header">
-			<div class="sitename" id="owo">owo</div>
-			<div class="sitedesc">Private pomf-compatible file host<br>&amp; Private polr URL shortener.</div>
-		</div>
-
-		<div class="content">
-
-			<p class="question">Where is the data stored?</p>
-			<p class="answer">
-				Our data is currently stored in Amazon S3 in the United States. All
-				content is legal under the US law. This means we may be forced to remove
-				copyrighted or illegal material. Basically, content has to be inline with 
-				the Amazon  Standards (which can be found <b><a href="https://aws.amazon.com/aup/">here</a></b>).
-			</p>
-
-			<p class="question">How do I use this service?</p>
-			<p class="answer">
-				There are a ton of ways to hook into the API for OwO, if you're not very
-				tech savvy (or just cant be bothered), theres a <a href="https://github.com/deansheather/owo.whats-th.is/wiki/Guide-for-ShareX">ShareX</a> and <a href="https://github.com/whats-this/owo.sh">MacOS/Linux</a> script, however if you want to write your own, or your script isnt supported please checkout the API <a href="https://github.com/whats-this/api">here</a>.
-			</p>
-
-			<p class="question">Private? I wanna upload!</p>
-			<p class="answer">
-				Currently, we're not accepting new users on the service, as we're
-				constantly making improvements to our backend and distribution
-				infrastructure and configuration. Shoot us an email and we'll get back
-				to you at a later date.
-			</p>
-
-			<p class="question">What's the maximum filesize I can upload?</p>
-			<p class="answer">
-				Currently, the max filesize that you can upload to our server is 80MiB.
-				This is to prevent large files taking up a lot of space, and costing a
-				lot to store. In future this may be changed, but based on current demand
-				its a solid point for filesizes.
-			</p>
-
-			<p class="question">What filetypes are allowed?</p>
-			<p class="answer">
-				All filetypes are viable to be uploaded now, however if you begin to upload
-				dodgy things like viruses and your account constantly is under fire and
-				throwing virus warnings your account <b>will be suspended</b>.
-			</p>
-
-			<p class="question">What wrappers/librarys are there?</p>
-			<div class="answer">
-				<div>The current librarys/API's that you are able to hook into are..
-					<ul>
-						<li><a href="https://github.com/whats-this/owo.rb" target="_blank">Ruby Wrapper</a> (Made by <a href="https://github.com/TriggerRimfire" target="_blank">Luna</a>)</li>
-						<li><a href="https://github.com/whats-this/owo.py" target="_blank">Python Wrapper</a> (Made by <a href="https://github.com/martmists" target="_blank">Martmists</a>)</li>
-						<li><a href="https://github.com/whats-this/owo.sh" target="_blank">Shell Script</a> (Made by <a href="https://github.com/jakeoid" target="_blank">Jakeoid</a> &amp; <a href="https://github.com/OkashiOdayakana" target="_blank">Okashi</a>)</li>
-						<li><a href="https://github.com/whats-this/owo.py" target="_blank">Go-OwO Wrapper</a> (Made by <a href="https://github.com/martmists" target="_blank">zet4</a>)</li>
-					</ul>
-				</div>
-			</div>
-
-			<p class="question">On what domains can I find the service?</p>
-			<div class="answer">
-				<div>You can find the file hosting service on..
-					<ul>
-						<a target="_blank" href="https://owo.whats-th.is"><li>owo.whats-th.is</li></a>
-						<a target="_blank" href="https://i.am-a.ninja"><li>i.am-a.ninja</li></a>
-						<a target="_blank" href="https://buttsare.sexy"><li>buttsare.sexy</li></a>
-						<a target="_blank" href="https://nyanyanya.moe"><li>nyanyanya.moe</li></a>
-						<a target="_blank" href="https://i.stole-a-me.me"><li>i.stole-a-me.me</li></a>
-						<a target="_blank" href="https://can-i-ask-dean-on-a.date"><li>can-i-ask-dean-on-a.date</li></a>
-						<a target="_blank" href="https://all.foxgirlsare.sexy"><li>all.foxgirlsare.sexy</li></a>
-					</ul>
-				</div>
-				<div>You can find the url shortner service on..
-					<ul>
-						<a target="_blank" href="https://uwu.whats-th.is"><li>uwu.whats-th.is</li></a>
-						<a target="_blank" href="https://awau.moe"><li>awau.moe</li></a>
-					</ul>
-				</div>
-				<div class="foot">
-					NOTE: All these links will return you to whats-th.is
-				</div>
-			</div>
-
-			<p class="question">I don't like something hosted here.</p>
-			<p class="answer">
-				We're sorry to hear about that. If any images infringe on your rights or
-				the rights of an entity you represent, please shoot us an email 
-				<a href="mailto:dean@whats-th.is">here</a>.  
-				Make sure to provide us with the URL(s) of the files in question or we
-				will be unable to take actions upon that user/the files.
-			</p>
-		</div>
-
-		<div class="footer">
-			<ul>
-				<li><a href="index.html">owo</a></li>
-				<li><a href="faq.html">faq</a></li>
-				<li><a href="https://github.com/whats-this/transparency">transparency</a></li>
-				<li><a href="https://github.com/whats-this">github</a></li>
-				<li><a href="mailto:dean@whats-th.is">contact</a></li>
-			</ul>
-		</div>
-	</div>
-
-	<script src="assets/script.js"></script>
-</body>
-</html>
+</p></section><footer><ul><li><a href="index.html">owo</a></li><li><a href="faq.html">faq</a></li><li><a href="https://github.com/whats-this/transparency">transparency</a></li><li><a href="https://github.com/whats-this">github</a></li><li><a href="mailto:dean@whats-th.is">contact</a></li></ul></footer></main></body><script type="text/javascript" src="assets/script.js"></script></html>
