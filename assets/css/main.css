@@ -97,13 +97,12 @@ footer {
   margin-bottom: 2.5rem;
   width: 300px; }
   footer ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around; }
+    min-width: 100vw;
+    margin-left: -22px; }
     footer ul li:not(:first-child)::before {
       content: '・'; }
     footer ul li {
-      flex-basis: 100px; }
+      float: left; }
       footer ul li a {
         color: #fff;
         font-size: 1.1rem;
