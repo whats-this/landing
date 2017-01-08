@@ -122,14 +122,13 @@ footer {
     width:300px;
 
     ul {
-        display:flex;
-        flex-flow:row nowrap;
-        justify-content:space-around;
+        min-width: 100vw;
+        margin-left:-22px;
         li:not(:first-child)::before {
             content:'・';
         }
         li {
-            flex-basis:100px;
+            float:left;
             a {
                 color:$font-color;
                 font-size:1.1rem;
