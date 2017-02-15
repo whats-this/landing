@@ -1,0 +1,37 @@
+.faq-box {
+  width: 50%;
+
+  > h3 {
+    margin: 30px 0 0 0;
+    font-weight: bold;
+    background-color: $text-color;
+    color: $background-color;
+    display: inline-block;
+    border-radius: 5px;
+
+    > a {
+      padding: 4px 13px;
+      display: inline-block;
+      position: relative;
+
+      &:hover:before {
+        display: block;
+      }
+
+      &:before {
+        padding-right: 13px;
+        position: absolute;
+        top: 5px; left: -18px;
+        display: none;
+        color: $text-color;
+        content: "#";
+      }
+    }
+  }
+
+  > h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  > ul { margin: 0; }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "owo-landing",
+  "version": "1.0.0",
+  "description": "Landing page for whats-th.is, hosted by GitHub Pages.",
+  "dependencies": {},
+  "devDependencies": {
+    "bourbon": "^4.3.2",
+    "bourbon-neat": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.2.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whats-this/landing.git"
+  },
+  "author": "Dean Sheather <dean@deansheather.com>",
+  "license": "MIT",
+  "homepage": "https://whats-th.is"
+}

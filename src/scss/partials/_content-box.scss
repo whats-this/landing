@@ -1,0 +1,25 @@
+.content-box {
+  height: 100%;
+  padding: 200px 100px 0 100px;
+  display: flex;
+  flex-direction: column;
+
+  @include media(lg) { padding-top: 100px; }
+  @include media(md) { padding-top: 50px; }
+
+  > .page-content {
+    flex: 1 0 auto;
+
+    &::after {
+      height: 0px;
+      content: '\00a0';
+      display: block;
+      visibility: hidden;
+    }
+  }
+
+  > footer {
+    margin-top: 40px;
+    flex: none;
+  }
+}
