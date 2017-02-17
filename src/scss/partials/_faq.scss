@@ -13,11 +13,10 @@
       padding: 4px 13px;
       display: inline-block;
       position: relative;
+      text-decoration: none;
 
-      &:hover:before {
-        display: block;
-      }
-
+      &:hover { text-decoration: underline; }
+      &:hover:before { display: block; }
       &:before {
         padding-right: 13px;
         position: absolute;
