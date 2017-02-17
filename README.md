@@ -1,28 +1,22 @@
 # Whats-Th.is Landing
-Landing page for whats-th.is, hosted by GitHub Pages. This repo's aim is to serve the information to our user whilst being a quick easy way for all members to push to the website, if changes need to be made. If you don't think that this is where you're meant to be, please, checkout our [main repository](https://github.com/whats-this) or the [API](https://github.com/whats-this/api).
+Landing page for whats-th.is, hosted by GitHub Pages. The aim of this website is
+to provide almost all information about the service in an easily accessible
+fashion. You're probably looking for the
+[API repository](https://github.com/whats-this/api).
 
-# Compiling
 
-### 1. Install gulp-cli:
+## Compiling
+1. Install `gulp-cli`: `npm install gulp-cli --global`
+2. `npm install`
+3. `gulp`
+4. To watch for changes and recompile: `gulp watch`
 
-```sh
-$ npm install gulp-cli --global
-```
 
-### 2. Install gulp & dependencies:
-```sh
-$ npm install gulp gulp-pug gulp-sass
-```
+## Contributing
+1. Fork, clone, make changes, test
+2. Compile as outlined above
+3. Make a PR
 
-### 3. Run gulpfile
-```sh
-$ gulp
-```
 
-# Contributing
-
-1. Make a PR.
-2. Submit said PR.
-
-# License
+## License
 A copy of the MIT license can be found in `LICENSE`.
