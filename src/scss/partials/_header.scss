@@ -9,11 +9,15 @@ header {
     font-weight: bold;
     font-size: 130px;
 
+    @include media(sm) { font-size: 90px; }
+
     > a { text-decoration: none; }
   }
 
   h2 {
     margin: 10px 0 0 0;
     font-size: 52px;
+
+    @include media(sm) { font-size: 42px; }
   }
 }

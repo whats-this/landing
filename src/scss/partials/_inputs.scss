@@ -1,14 +1,17 @@
 input {
   padding: 6px 13px;
-  background: none;
+  background: $text-color;
   border: none;
   outline: 0;
-  color: inherit;
-  border-left: 3px solid $text-color;
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
+  color: $background-color;
+  border-radius: 2px;
 
   &:hover { cursor: text; }
+
+  &#email {
+    width: 180px;
+    text-align: center;
+  }
 
   &::-webkit-input-placeholder { color: inherit; }
   &:-moz-placeholder { color: inherit; }

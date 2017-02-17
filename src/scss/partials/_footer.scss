@@ -6,16 +6,21 @@ footer {
     li:not(:first-child) {
       margin-left: 20px;
     }
+
     li {
       list-style: none;
       display: inline-block;
+
+      @include media(sm) {
+        margin: 0 !important;
+        display: block;
+      }
+
       a {
-        font-size:1.1rem;
-        text-decoration:none;
-        line-height:1.1rem;
-        &:hover {
-            color: $brand-primary;
-        }
+        font-size: 1.1rem;
+        text-decoration: none;
+
+        &:hover { color: $brand-primary; }
       }
     }
   }
