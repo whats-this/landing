@@ -1,30 +1,15 @@
-html
-  head
-    meta(charset='utf-8')
-    title owo &middot; home
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css')
-    link(rel='stylesheet', href='/assets/css/main.css')
-    link(rel='icon', type='image/png', href='assets/favicon.png')
-  body
-    main
-      header
-        h1#owo owo
-        h3 Private pomf-compatible file host#[br]& Private polr URL shortener
-      section
-        p All accounts are given with approval from Dean.
-        input#email(value='dean@whats-th.is' readonly)
-      footer
-        ul
-          li
-            a(href='index.html') owo
-          li
-            a(href='faq.html') faq
-          li
-            a(href='https://github.com/whats-this/transparency') transparency
-          li
-            a(href='https://github.com/whats-this') github
-          li
-            a(href='mailto:dean@whats-th.is') contact
-  script(type='text/javascript' src='assets/script.js')
+extends layouts/_owo.pug
+
+block variables
+  - var htmlTitle = "home";
+  - var pageTitle = "A private, Pomf-compatible file host.";
+
+block content
+  p.
+    All accounts are given with approval from Dean
+    <small>(#[a(href='https://keybase.io/deansheather' target='_blank') Keybase])</small>:
+  input#email(value='dean@whats-th.is' readonly)
+
+block scripts
+  script(type='text/javascript')
+    include partials/_email-autoselect.js

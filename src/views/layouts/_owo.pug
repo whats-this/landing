@@ -1,0 +1,19 @@
+block variables
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title owo &middot; #{htmlTitle}
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:400,700')
+    link(rel='stylesheet', href='/assets/css/styles.css')
+    link(rel='icon', type='image/png', href='/assets/img/favicon.png')
+
+  body
+    .content-box
+      .page-content
+        include ../partials/_header.pug
+        block content
+      include ../partials/_footer.pug
+    block scripts

@@ -1,0 +1,29 @@
+// Greys
+$dark: #252525;
+$light: #FFF;
+
+// Brand colors
+$brand-primary: #448CCB;
+
+// Background and text colors
+$background-color: $dark;
+$text-color: $light;
+
+// Base font
+$base-font-family: Roboto, sans-serif;
+$base-font-weight: 400;
+$base-font-size: 16px;
+$base-line-height: 1.4;
+
+// Responsive breakpoints
+$sm: 700px;
+$md: 900px;
+$lg: 1300px;
+
+// Box-sizing
+* {
+  box-sizing: border-box;
+}
+
+// Import all mixins
+@import "../modules/all";

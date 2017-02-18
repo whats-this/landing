@@ -1,0 +1,20 @@
+input {
+  padding: 6px 13px;
+  background: $text-color;
+  border: none;
+  outline: 0;
+  color: $background-color;
+  border-radius: 2px;
+
+  &:hover { cursor: text; }
+
+  &#email {
+    width: 180px;
+    text-align: center;
+  }
+
+  &::-webkit-input-placeholder { color: inherit; }
+  &:-moz-placeholder { color: inherit; }
+  &::-moz-placeholder { color: inherit; }
+  &:-ms-input-placeholder { color: inherit; }
+}

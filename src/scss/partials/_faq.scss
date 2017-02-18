@@ -1,0 +1,40 @@
+.faq-box {
+  width: 50%;
+
+  @include media(lg) { width: 65%; }
+  @include media(md) { width: 75%; }
+  @include media(sm) { width: 100%; }
+
+  > h3 {
+    margin: 30px 0 0 0;
+    font-weight: bold;
+    background-color: $text-color;
+    color: $background-color;
+    display: inline-block;
+    border-radius: 2px;
+
+    > a {
+      padding: 4px 13px;
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+
+      &:hover { text-decoration: underline; }
+      &:hover:before { display: block; }
+      &:before {
+        padding-right: 13px;
+        position: absolute;
+        top: 5px; left: -18px;
+        display: none;
+        color: $text-color;
+        content: "#";
+      }
+    }
+  }
+
+  > h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  > ul { margin: 0; }
+}
