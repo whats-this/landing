@@ -11,7 +11,7 @@ block content
       Any uploaded files are currently stored on Exoscale in Switzerland. All
       content must be legal under Switzerland law. We chose Switzerland as our
       file storage location due to the good privacy laws, and because Exoscale
-      is a pretty good cloud provider.
+      is a pretty good cloud provider in our opinion.
     p.
       Any shortened URLs using the service are currently stored in AWS S3, as we
       have not yet migrated this over to Switzerland. Any shortened URLs must
@@ -35,8 +35,8 @@ block content
       Currently we aren't accepting new users through a signup form, as we're
       still in beta and are constantly making improvements and updates to our
       infrastructure. We hope to be accepting users through a signup form in the
-      future. If you want to try your luck at convincing me to give you an
-      account over email, be my guest.
+      future. If you want to try your luck at convincing Dean to give you an
+      account over email, be our guest.
 
   .faq-box#maximum-filesize
     h3 #[a(href='#maximum-filesize') What's the maximum filesize I can upload?]
@@ -44,7 +44,7 @@ block content
       Currently, the maximum filesize that the server will accept is 100MB. This
       limit applies per request, and up to three images can be uploaded in one
       request. This may be changed in the future, but currently we feel that
-      this gives users enough room to upload what they want and not cause me to
+      this gives users enough room to upload what they want and not cause us to
       have to pay an overly large bill for storage and bandwidth.
 
   .faq-box#permitted-filetypes
@@ -56,7 +56,7 @@ block content
       field's Content-Type, but defaults to application/octect-stream if not
       supplied. All content is scanned after upload, and every 48 hours. Any
       content that is marked as infected is immediately discarded from storage,
-      the cache servers, and in some cases invalidated on Cloudflare (our CDN).
+      the cache servers, and in some cases invalidated on our CDN.
 
   //- h3 Are there any libraries or CLI wrappers?
   //- h5#a The current libraries and CLI wrappers you can use are:
@@ -84,7 +84,7 @@ block content
   //-     li
   //-       a(href='https://github.com/noud02/owo-ios.py' target='_blank') Uploader script for iOS&nbsp;
   //-       |made by
-  //-       a(href='https://github.com/noud02' target='_blank')  noud02  
+  //-       a(href='https://github.com/noud02' target='_blank')  noud02
 
   .faq-box#how-to-access-files
     h3 #[a(href='#how-to-access-files') How can I access files that have been uploaded to the service?]
@@ -95,38 +95,50 @@ block content
 
     h4 You can find the file hosting service on:
     ul
-      li owo.whats-th.is
-      li all.foxgirlsare.sexy
-      li buttsare.sexy
-      li can-i-ask-dean-on-a.date
-      li catch-me-outside.how-about-th.at
-      li deanis.sexy
-      li how-about-th.at
-      li i.am-a.ninja
-      li i-have-a.fourchin.net
-      li i.stole-a-me.me
-      li im.not.ovh
-      li light-theme-hurts.my-ey.es
-      li my.catgirl.party
-      li nyanyanya.moe
-      li this.is-a.dog
-      li totally-not.a-sketchy.site
-      
+      li #[code owo.whats-th.is]
+      li #[code all.foxgirlsare.sexy]
+      li #[code buttsare.sexy]
+      li #[code can-i-ask-dean-on-a.date]
+      li #[code catch-me-outside.how-about-th.at]
+      li #[code cat.girlsare.life]
+      li #[code deanis.sexy]
+      li #[code fox.girlsare.life]
+      li #[code hack-my-mainfra.me]
+      li #[code how-about-th.at]
+      li #[code i.am-a.ninja]
+      li #[code i.stole-a-me.me]
+      li #[code i-hate.dabbot.org]
+      li #[code i-have-a.fourchin.net]
+      li #[code i-was-scammed-by.dabbot.org]
+      li #[code im.not.ovh]
+      li #[code is-fi.re]
+      li #[code light-theme-hurts.my-ey.es]
+      li #[code my.catgirl.party]
+      li #[code nyanyanya.moe]
+      li #[code ping-b1nzy.today]
+      li #[code pvpcraft-is-worse-than.dabbot.org]
+      li #[code quak.ovh]
+      li #[code quak.quak.ovh]
+      li #[code requires.discord.gold]
+      li #[code take-me-on-a.date]
+      li #[code this.is-a.dog]
+      li #[code totally-not.a-sketchy.site]
 
     h4 You can find the link shortener service on:
     ul
-      li awau.moe
-      li uwu.whats-th.is
+      li #[code awau.moe]
+      li #[code thats-a.link]
+      li #[code uwu.whats-th.is]
 
     p.
-      Visiting any of these links in your browser without a path will redirect you
-      back to the homepage.
+      Visiting any of these links in your browser without a path will redirect
+      you back to the homepage.
 
   .faq-box#remove-requests
     h3 #[a(href='#remove-requests') I don't like something hosted here. Can you remove it?]
     p.
       We're sorry to hear about that. If any images infringe on your rights or
-      the rights of an entity you represent, please shoot me an email using the
+      the rights of an entity you represent, please shoot us an email using the
       contact link in the footer of this page and we will try to get back to you
       as soon as possible. Make sure to provide us with the URL(s) of the
       content in question or we will be unable to find the files on our system.

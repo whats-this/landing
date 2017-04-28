@@ -1,7 +1,8 @@
 {
   "name": "owo-landing",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "Landing page for whats-th.is, hosted by GitHub Pages.",
+  "private": true,
   "dependencies": {},
   "devDependencies": {
     "bourbon": "^4.3.2",
