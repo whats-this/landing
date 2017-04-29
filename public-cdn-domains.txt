@@ -6,8 +6,12 @@ files:*.is-fi.re
 files:*.is-serious.business
 files:*.is-pretty.cool
 files:*.is-pretty.sexy
+files:*.is-bad.com
+files:*.is-a-bad-waifu.com
+files:*.is-a-good-waifu.com
 
 files:owo.whats-th.is
+files:owo.solutions
 files:all.foxgirlsare.sexy
 files:buttsare.sexy
 files:can-i-ask-dean-on-a.date
