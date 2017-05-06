@@ -2,6 +2,7 @@ default-files:owo.whats-th.is
 default-links:awau.moe
 
 files:*.are-pretty.sexy
+files:*.banned.today
 files:*.is-fi.re
 files:*.is-serious.business
 files:*.is-pretty.cool
@@ -9,6 +10,7 @@ files:*.is-pretty.sexy
 files:*.is-bad.com
 files:*.is-a-bad-waifu.com
 files:*.is-a-good-waifu.com
+files:*.ratelimited.today
 
 files:owo.whats-th.is
 files:owo.solutions
