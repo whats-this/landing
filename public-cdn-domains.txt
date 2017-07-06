@@ -29,6 +29,14 @@ files:*.is-pretty.cool
 files:*.is-pretty.sexy
 files:*.ratelimited.today
 files:*.while-at.work
+files:*.is-real.life
+files:*.while-at.school
+files:*.is-into.men
+files:*.should-be.legal 
+files:*.in-my.life
+files:*.bad-me.me
+files:*.is-a-professional-domain.com
+files:*.needs-to-s.top
 
 # Non-wildcarded file CDN endpoints
 files:owo.whats-th.is
@@ -44,7 +52,6 @@ files:how-about-th.at
 files:i.am-a.ninja
 files:i.stole-a-me.me
 files:i-hate.dabbot.org
-files:i-have-a.fourchin.net
 files:i-was-scammed-by.dabbot.org
 files:im.not.ovh
 files:is-fi.re
@@ -60,6 +67,13 @@ files:requires.discord.gold
 files:take-me-on-a.date
 files:this.is-a.dog
 files:totally-not.a-sketchy.site
+files:i-need.discord.cards
+files:whyisroadcrossercoolerthan.me
+files:b1nzy-banned.it
+files:you.all-s.uk
+files:banne.services
+files:can-we-make-a.party
+files:bad-me.me
 
 # Non-wildcarded link shortener CDN endpoints
 links:awau.moe
