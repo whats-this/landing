@@ -1,7 +1,7 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><title>owo &middot; faq</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700"><link rel="stylesheet" href="/assets/css/styles.css"><link rel="icon" type="image/png" href="/assets/img/favicon.png"></head><body><div class="content-box"><div class="page-content"><header><h1><a href="/">OWO</a></h1><h2>FAQ</h2></header><div class="faq-box" id="where-is-the-data-stored"><h3><a href="#where-is-the-data-stored">Where is the data stored?</a></h3><p>Any uploaded files are currently stored on Exoscale in Switzerland. All
 content must be legal under Switzerland law. We chose Switzerland as our
 file storage location due to the good privacy laws, and because Exoscale
-is a pretty good cloud provider.</p><p>Any shortened URLs using the service are currently stored in AWS S3, as we
+is a pretty good cloud provider in our opinion.</p><p>Any shortened URLs using the service are currently stored in AWS S3, as we
 have not yet migrated this over to Switzerland. Any shortened URLs must
 fall inline with the laws in Ohio, U.S. including any federal laws of the
 United States. Additionally, shortened URLs must fall in line with
@@ -15,12 +15,12 @@ or Polr-compatible clients for link shortening are supported.
 </p></div><div class="faq-box" id="private-beta"><h3><a href="#private-beta">Private? Beta? I wanna upload NOW!</a></h3><p>Currently we aren't accepting new users through a signup form, as we're
 still in beta and are constantly making improvements and updates to our
 infrastructure. We hope to be accepting users through a signup form in the
-future. If you want to try your luck at convincing me to give you an
-account over email, be my guest.
+future. If you want to try your luck at convincing Dean to give you an
+account over email, be our guest.
 </p></div><div class="faq-box" id="maximum-filesize"><h3><a href="#maximum-filesize">What's the maximum filesize I can upload?</a></h3><p>Currently, the maximum filesize that the server will accept is 100MB. This
 limit applies per request, and up to three images can be uploaded in one
 request. This may be changed in the future, but currently we feel that
-this gives users enough room to upload what they want and not cause me to
+this gives users enough room to upload what they want and not cause us to
 have to pay an overly large bill for storage and bandwidth.
 </p></div><div class="faq-box" id="permitted-filetypes"><h3><a href="#permitted-filetypes">What filetypes are allowed?</a></h3><p>Previously, we only allowed extensions/mime-types that were in a
 whitelist. Now we allow all filetypes and mime-types. The Content-Type of
@@ -28,14 +28,19 @@ the served content will be set to the Content-Type of the multipart
 field's Content-Type, but defaults to application/octect-stream if not
 supplied. All content is scanned after upload, and every 48 hours. Any
 content that is marked as infected is immediately discarded from storage,
-the cache servers, and in some cases invalidated on Cloudflare (our CDN).
+the cache servers, and in some cases invalidated on our CDN.
 </p></div><div class="faq-box" id="how-to-access-files"><h3><a href="#how-to-access-files">How can I access files that have been uploaded to the service?</a></h3><p>Our service serves content from many "vanity" URLs, all over HTTPS. File
 hosting is separated from the link shortener domains. We don't have a
 control panel, yet, but it is planned.
-</p><h4>You can find the file hosting service on:</h4><ul><li>owo.whats-th.is</li><li>all.foxgirlsare.sexy</li><li>buttsare.sexy</li><li>can-i-ask-dean-on-a.date</li><li>catch-me-outside.how-about-th.at</li><li>deanis.sexy</li><li>how-about-th.at</li><li>i.am-a.ninja</li><li>i.stole-a-me.me</li><li>im.not.ovh</li><li>light-theme-hurts.my-ey.es</li><li>my.catgirl.party</li><li>nyanyanya.moe</li><li>this.is-a.dog</li><li>totally-not.a-sketchy.site</li></ul><h4>You can find the link shortener service on:</h4><ul><li>awau.moe</li><li>uwu.whats-th.is</li></ul><p>Visiting any of these links in your browser without a path will redirect you
-back to the homepage.
+</p><h4>You can find the file hosting service on:</h4><ul><li><code>owo.whats-th.is</code></li><li><code>all.foxgirlsare.sexy</code></li><li><code>buttsare.sexy</code></li><li><code>can-i-ask-dean-on-a.date</code></li><li><code>catch-me-outside.how-about-th.at</code></li><li><code>cat.girlsare.life</code></li><li><code>deanis.sexy</code></li><li><code>fox.girlsare.life</code></li><li><code>hack-my-mainfra.me</code></li><li><code>how-about-th.at</code></li><li><code>i.am-a.ninja</code></li><li><code>i.stole-a-me.me</code></li><li><code>i-hate.dabbot.org</code></li><li><code>i-have-a.fourchin.net</code></li><li><code>i-was-scammed-by.dabbot.org</code></li><li><code>im.not.ovh</code></li><li><code>is-fi.re</code></li><li><code>it-is.us</code></li><li><code>light-theme-hurts.my-ey.es</code></li><li><code>my.catgirl.party</code></li><li><code>nyanyanya.moe</code></li><li><code>owo.solutions</code></li><li><code>ping-b1nzy.today</code></li><li><code>quak.ovh</code></li><li><code>quak.quak.ovh</code></li><li><code>requires.discord.gold</code></li><li><code>take-me-on-a.date</code></li><li><code>this.is-a.dog</code></li><li><code>totally-not.a-sketchy.site</code></li></ul><h4>Additionally, we serve all files on a few wildcarded subdomains:</h4><ul><li><code>*.are-pretty.sexy</code></li><li><code>*.banned.today</code></li><li><code>*.is-fi.re</code></li><li><code>*.is-going-to.space</code></li><li><code>*.is-serious.business</code></li><li><code>*.is-a-bad-waifu.com</code></li><li><code>*.is-a-good-waifu.com</code></li><li><code>*.is-bad.com</code></li><li><code>*.is-pretty.cool</code></li><li><code>*.is-pretty.sexy</code></li><li><code>*.ratelimited.today</code></li><li><code>*.while-at.work</code></li></ul><p>Wildcards can have anything thrown in front of them (as long as it doesn't
+contain an extra period!). For example, I can use
+<code>owo.is-pretty.cool</code> to access files on the file CDN, but I can't
+use <code>whats.this.is-pretty.cool</code>, because <code>whats.this</code> contains
+an extra period.
+</p><h4>You can find the link shortener service on:</h4><ul><li><code>awau.moe</code></li><li><code>thats-a.link</code></li><li><code>uwu.whats-th.is</code></li></ul><p>Visiting any of these links in your browser without a path will redirect
+you back to the homepage.
 </p></div><div class="faq-box" id="remove-requests"><h3><a href="#remove-requests">I don't like something hosted here. Can you remove it?</a></h3><p>We're sorry to hear about that. If any images infringe on your rights or
-the rights of an entity you represent, please shoot me an email using the
+the rights of an entity you represent, please shoot us an email using the
 contact link in the footer of this page and we will try to get back to you
 as soon as possible. Make sure to provide us with the URL(s) of the
-content in question or we will be unable to find the files on our system.</p></div></div><footer><ul><li><a href="/">HOME</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="https://github.com/whats-this/transparency">TRANSPARENCY</a></li><li><a href="https://github.com/whats-this">GITHUB</a></li><li><a href="https://owo.whats-th.is/ce8eab.asc">DONATE</a></li><li><a href="&#109;ailto&#58;&#100;ean&#64;&#37;77ha&#116;&#115;&#45;%74h&#46;is">CONTACT</a></li></ul></footer></div></body></html>
+content in question or we will be unable to find the files on our system.</p></div></div><footer><ul><li><a href="/">HOME</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="https://github.com/whats-this/transparency">TRANSPARENCY</a></li><li><a href="https://github.com/whats-this">GITHUB</a></li><li><a href="https://owo.whats-th.is/ce8eab.asc">DONATE</a></li><li><a href="&#109;ailto&#58;&#100;evs&#64;&#37;77ha&#116;&#115;&#45;%74h&#46;is">CONTACT</a></li></ul></footer></div></body></html>
