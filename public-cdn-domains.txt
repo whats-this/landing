@@ -1,67 +1,64 @@
 # A public, machine-and-human-readable list of all the domains available for
-# accessing the whats-th.is CDN. CDN domains in this file are mostly in
-# alphabetical order.
+# accessing the whats-th.is CDN. CDN domains in this file are in alphabetical
+# order.
 #
 # Wildcards in this file are denoted by asterisks (*). Comment lines in this
 # file start with a pound sign (#). This file contains empty lines.
 #
-# Keys:
+# Prefixes:
 #   - default-files: the default files CDN endpoint
 #   - default-links: the default link shortener CDN endpoint (and base URL
 #     returned by API)
-#   - files: a file CDN endpoint, can contain wildcards
-#   - links: a link shortener CDN endpoint, can contain wildcards
 
 # Default CDN endpoints
 default-files:owo.whats-th.is
 default-links:awau.moe
 
 # Wildcarded file CDN endpoints
-files:*.are-pretty.sexy
-files:*.banned.today
-files:*.is-fi.re
-files:*.is-going-to.space
-files:*.is-serious.business
-files:*.is-a-bad-waifu.com
-files:*.is-a-good-waifu.com
-files:*.is-bad.com
-files:*.is-pretty.cool
-files:*.is-pretty.sexy
-files:*.ratelimited.today
-files:*.while-at.work
+*.are-pretty.sexy
+*.banned.today
+*.is-fi.re
+*.is-going-to.space
+*.is-serious.business
+*.is-a-bad-waifu.com
+*.is-a-good-waifu.com
+*.is-bad.com
+*.is-pretty.cool
+*.is-pretty.sexy
+*.ratelimited.today
+*.while-at.work
 
-# Non-wildcarded file CDN endpoints
-files:owo.whats-th.is
-files:all.foxgirlsare.sexy
-files:buttsare.sexy
-files:can-i-ask-dean-on-a.date
-files:catch-me-outside.how-about-th.at
-files:cat.girlsare.life
-files:deanis.sexy
-files:fox.girlsare.life
-files:hack-my-mainfra.me
-files:how-about-th.at
-files:i.am-a.ninja
-files:i.stole-a-me.me
-files:i-hate.dabbot.org
-files:i-have-a.fourchin.net
-files:i-was-scammed-by.dabbot.org
-files:im.not.ovh
-files:is-fi.re
-files:it-is.us
-files:light-theme-hurts.my-ey.es
-files:my.catgirl.party
-files:nyanyanya.moe
-files:owo.solutions
-files:ping-b1nzy.today
-files:quak.ovh
-files:quak.quak.ovh
-files:requires.discord.gold
-files:take-me-on-a.date
-files:this.is-a.dog
-files:totally-not.a-sketchy.site
+# Non-wildcarded CDN domains
+all.foxgirlsare.sexy
+awau.moe
+buttsare.sexy
+can-i-ask-dean-on-a.date
+catch-me-outside.how-about-th.at
+cat.girlsare.life
+deanis.sexy
+fox.girlsare.life
+hack-my-mainfra.me
+how-about-th.at
+i.am-a.ninja
+i.stole-a-me.me
+i-hate.dabbot.org
+i-have-a.fourchin.net
+i-was-scammed-by.dabbot.org
+im.not.ovh
+is-fi.re
+it-is.us
+light-theme-hurts.my-ey.es
+my.catgirl.party
+nyanyanya.moe
+owo.solutions
+owo.whats-th.is
+ping-b1nzy.today
+quak.ovh
+quak.quak.ovh
+requires.discord.gold
+take-me-on-a.date
+thats-a.link
+this.is-a.dog
+totally-not.a-sketchy.site
+uwu.whats-th.is
 
-# Non-wildcarded link shortener CDN endpoints
-links:awau.moe
-links:thats-a.link
-links:uwu.whats-th.is
