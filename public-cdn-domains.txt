@@ -1,6 +1,6 @@
 # A public, machine-and-human-readable list of all the domains available for
 # accessing the whats-th.is CDN. CDN domains in this file are in alphabetical
-# order.
+# order. 75 domains and counting.
 #
 # Wildcards in this file are denoted by asterisks (*). Comment lines in this
 # file start with a pound sign (#). This file contains empty lines.
@@ -15,50 +15,81 @@ default-files:owo.whats-th.is
 default-links:awau.moe
 
 # Wildcarded file CDN endpoints
+*.are-la.me
 *.are-pretty.sexy
+*.bad-me.me
 *.banned.today
-*.is-fi.re
-*.is-going-to.space
-*.is-serious.business
+*.good-me.me
+*.in-my.life
 *.is-a-bad-waifu.com
 *.is-a-good-waifu.com
+*.is-a-professional-domain.com
 *.is-bad.com
+*.is-fi.re
+*.is-going-to.space
+*.is-into.men
+*.is-la.me
+*.is-over.party
 *.is-pretty.cool
+*.is-pretty.fun
 *.is-pretty.sexy
+*.is-real.life
+*.is-serious.business
+*.needs-to-s.top
+*.pls-fuck.me
 *.ratelimited.today
+*.should-be.legal
+*.theworstme.me
+*.while-at.school
 *.while-at.work
 
 # Non-wildcarded CDN domains
 all.foxgirlsare.sexy
 awau.moe
+b1nzy-pruned.us
+bad-me.me
 buttsare.sexy
 can-i-ask-dean-on-a.date
-catch-me-outside.how-about-th.at
 cat.girlsare.life
+catch-me-outside.how-about-th.at
 deanis.sexy
+discord.coffee
 fox.girlsare.life
+good-me.me
 hack-my-mainfra.me
 how-about-th.at
-i.am-a.ninja
-i.stole-a-me.me
 i-hate.dabbot.org
 i-have-a.fourchin.net
+i-need.discord.cards
 i-was-scammed-by.dabbot.org
+i.am-a.ninja
+i.not.ovh
+i.stole-a-me.me
 im.not.ovh
 is-fi.re
 it-is.us
+kotlin-for.life
 light-theme-hurts.my-ey.es
 my.catgirl.party
 nyanyanya.moe
+o.lol-sa.me
+owo.sh
 owo.solutions
 owo.whats-th.is
+pantsu.review
 ping-b1nzy.today
+pls-fuck.me
 quak.ovh
 quak.quak.ovh
 requires.discord.gold
+snek.lgbt
 take-me-on-a.date
 thats-a.link
+theworstme.me
 this.is-a.dog
 totally-not.a-sketchy.site
 uwu.whats-th.is
+why-are-you-buying-clothes-at.the-soup.store
+whyisroadcrossercoolerthan.me
+woah.this-is-a.site
 
