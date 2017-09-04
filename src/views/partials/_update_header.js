@@ -8,7 +8,7 @@ function updateHeaderText () {
 }
 
 if (document.location.pathname === '/') {
-  header.href = '#';
-  updateHeaderText();
-  header.onclick = updateHeaderText;
+	header.href = '#';
+	updateHeaderText();
+	header.onclick = updateHeaderText;
 }
