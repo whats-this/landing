@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>owo &middot; home</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700"><link rel="stylesheet" href="/assets/css/styles.css"><link rel="icon" type="image/png" href="/assets/img/favicon.png"></head><body><div class="content-box"><div class="page-content"><header><h1><a href="/">OWO</a></h1><h2>A private, Pomf-compatible file host.</h2></header><p>All accounts are given with approval from
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>owo &middot; home</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700"><link rel="stylesheet" href="/assets/css/styles.css"><link rel="icon" type="image/png" href="/assets/img/favicon.png"></head><body><div class="content-box"><div class="page-content"><header><h1><a href="/" id="owo">OWO</a></h1><h2>A private, Pomf-compatible file host.</h2></header><p>All accounts are given with approval from
 <a href="https://keybase.io/deansheather" target="_blank">Dean</a> or
 <a href="https://keybase.io/aurieh" target="_blank">Aurieh</a> (make sure you
 include your key and encrypt for both of us if you use PGP):</p><input id="email" value="devs@whats-th.is" readonly></div><footer><ul><li><a href="/">HOME</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="https://github.com/whats-this/transparency">TRANSPARENCY</a></li><li><a href="https://github.com/whats-this">GITHUB</a></li><li><a href="https://owo.whats-th.is/ce8eab.asc">DONATE</a></li><li><a href="&#109;ailto&#58;&#100;evs&#64;&#37;77ha&#116;&#115;&#45;%74h&#46;is">CONTACT</a></li></ul></footer></div><script type="text/javascript">var email = document.getElementById('email');
@@ -16,5 +16,22 @@ email.onclick = email.onfocus = function () {
 
 email.onblur = function () {
   this.__active = false;
+};
+</script><script type="text/javascript">function choice() {
+  return Math.random() > 0.5;
+}
+
+var last = '';
+var header = document.getElementById('owo');
+header.href = '#';
+header.onclick = function() {
+  var letter = choice() ? 'O' : 'U';
+  var current = [
+    choice() ? letter : letter.toLowerCase(),
+    choice() ? 'W' : 'w',
+    choice() ? letter : letter.toLowerCase(),
+  ].join('');
+  if (current === last) return header.onclick();
+  header.innerText = last = current;
 };
 </script></body></html>
