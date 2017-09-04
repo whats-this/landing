@@ -1,21 +1,17 @@
 var header = document.getElementById('owo');
 
+function choice() {
+  return Math.random() > 0.5;
+}
+
 if (document.location.pathname === '/') {
   header.href = '#';
   header.onclick = function() {
-    header.innerText = randomOwo();
+    var letter = choice() ? 'O' : 'U';
+    header.innerText = [
+      choice() ? letter : letter.toLowerCase(),
+      choice() ? 'W' : 'w',
+      choice() ? letter : letter.toLowerCase(),
+    ].join('');
   }
-}
-
-function randomOwo() {
-  var letter = choice() ? 'O' : 'U';
-  return [
-    choice() ? letter : letter.toLowerCase(),
-    choice() ? 'W' : 'w',
-    choice() ? letter : letter.toLowerCase(),
-  ].join('');
-}
-
-function choice() {
-  return Math.random() > 0.5;
 }
