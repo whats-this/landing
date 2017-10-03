@@ -54,14 +54,12 @@ buttsare.sexy
 can-i-ask-dean-on-a.date
 cat.girlsare.life
 catch-me-outside.how-about-th.at
-# Removed due to registrar issues - deanis.sexy
 discord.coffee
 fox.girlsare.life
 good-me.me
 hack-my-mainfra.me
 how-about-th.at
 i-hate.dabbot.org
-# Removed due to non resolved - i-have-a.fourchin.net
 i-need.discord.cards
 i-was-scammed-by.dabbot.org
 i.am-a.ninja
@@ -85,7 +83,6 @@ pls-fuck.me
 quak.ovh
 quak.quak.ovh
 requires.discord.gold
-# Wrong url (fixed above i.stole-a-me.me - alphabetical is why it moves) - snek.lgbt
 take-me-on-a.date
 thats-a.link
 theworstme.me
@@ -95,4 +92,3 @@ uwu.whats-th.is
 why-are-you-buying-clothes-at.the-soup.store
 whyisroadcrossercoolerthan.me
 woah.this-is-a.site
-
