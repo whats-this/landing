@@ -9,6 +9,8 @@
 #   - default-files: the default files CDN endpoint
 #   - default-links: the default link shortener CDN endpoint (and base URL
 #     returned by API)
+#
+# The changelog for this file is in public-cdn-domains.changelog.txt.
 
 # Default CDN endpoints
 default-files:owo.whats-th.is
