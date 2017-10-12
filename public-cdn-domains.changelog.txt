@@ -1,18 +1,18 @@
 # public-cdn-domains.txt change log. This file should be kept up to date with
 # changes to public-cdn-domains.txt. Dates should be placed newest first.
 
-# Oct 12
+# Oct 12, 2017
 - good-me.me
 - *.good-me.me
 
-# Oct 2
+# Oct 2, 2017
 - deanis.sexy # Removed due to registrar issues
 - i-have-a.fourchin.net # Removed due to non resolved
 - snek.lgbt # Renamed (see below)
 + i.snek.lgbt
 
 
-# Aug 30
+# Aug 30, 2017
 + *.are-la.me
 + *.bad-me.me
 + *.good-me.me
@@ -46,7 +46,7 @@
 + woah.this-is-a.site
  
 
-# May 7
+# May 7, 2017
 + *.banned.today
 + *.is-a-bad-waifu.com
 + *.is-a-good-waifu.com
@@ -58,7 +58,7 @@
 + owo.solutions
 
 
-# Apr 28
+# Apr 28, 2017
 + *.are-pretty.sexy
 + *.is-fi.re
 + *.is-pretty.cool
@@ -78,7 +78,7 @@
 + take-me-on-a.date
 + thats-a.link
 
-# Feb 18 (initial) 
+# Feb 18, 2017 (initial)
 + all.foxgirlsare.sexy
 + awau.moe
 + buttsare.sexy
