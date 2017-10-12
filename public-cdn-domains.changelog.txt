@@ -1,6 +1,10 @@
 # public-cdn-domains.txt change log. This file should be kept up to date with
 # changes to public-cdn-domains.txt. Dates should be placed newest first.
 
+# Oct 12
+- good-me.me
+- *.good-me.me
+
 # Oct 2
 - deanis.sexy # Removed due to registrar issues
 - i-have-a.fourchin.net # Removed due to non resolved

@@ -21,7 +21,6 @@ default-links:awau.moe
 *.are-pretty.sexy
 *.bad-me.me
 *.banned.today
-*.good-me.me
 *.in-my.life
 *.is-a-bad-waifu.com
 *.is-a-good-waifu.com
@@ -56,7 +55,6 @@ cat.girlsare.life
 catch-me-outside.how-about-th.at
 discord.coffee
 fox.girlsare.life
-good-me.me
 hack-my-mainfra.me
 how-about-th.at
 i-hate.dabbot.org
