@@ -1,0 +1,25 @@
+extends layouts/_owo.pug
+
+block variables
+	- var htmlTitle = "owo.sxcu";
+	- var pageTitle = "owo.sxcu";
+
+block content
+	div.faq-box
+		p.
+			To generate a ShareX #[code .sxcu] uploader configuration for
+			#[code whats-th.is], simply insert your user token into the text field
+			below and press the submit button to start the download. Once the file is
+			downloaded, simply click it to prompt ShareX to configure itself to use
+			owo.
+		p(style='font-size: 0.8em;').
+			Note: your token is not transmitted over the wire by this tool, and
+			configuration files are generated in your browser using Javascript.
+
+		input#token(placeholder='00xx0x00-x00x-0xx0-x0xx-x00000xx0x0x')
+		br
+		button#generate Generate .sxcu file
+
+block scripts
+	script(type='text/javascript')
+		include partials/_sharex-sxcu-generator.js

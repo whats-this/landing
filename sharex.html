@@ -1,0 +1,43 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>owo &middot; owo.sxcu</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700"><link rel="stylesheet" href="/assets/css/styles.css"><link rel="icon" type="image/png" href="/assets/img/favicon.png"></head><body><div class="content-box"><div class="page-content"><header><h1><a href="/" id="owo">OWO</a></h1><h2>owo.sxcu</h2></header><div class="faq-box"><p>To generate a ShareX <code>.sxcu</code> uploader configuration for
+<code>whats-th.is</code>, simply insert your user token into the text field
+below and press the submit button to start the download. Once the file is
+downloaded, simply click it to prompt ShareX to configure itself to use
+owo.</p><p style="font-size: 0.8em;">Note: your token is not transmitted over the wire by this tool, and
+configuration files are generated in your browser using Javascript.
+</p><input id="token" placeholder="00xx0x00-x00x-0xx0-x0xx-x00000xx0x0x"><br><button id="generate">Generate .sxcu file</button></div></div><footer><ul><li><a href="/">HOME</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="https://github.com/whats-this/transparency">TRANSPARENCY</a></li><li><a href="https://github.com/whats-this">GITHUB</a></li><li><a href="https://owo.whats-th.is/ce8eab.asc">DONATE</a></li><li><a href="&#109;ailto&#58;&#100;evs&#64;&#37;77ha&#116;&#115;&#45;%74h&#46;is">CONTACT</a></li></ul></footer></div><script type="text/javascript">var tokenInput = document.getElementById('token');
+var submitBtn = document.getElementById('generate');
+
+var uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+
+var templateToken = '{{KEY}}';
+var template =
+'{\n' +
+'  "Name": "whats-th.is",\n' +
+'  "DestinationType": "ImageUploader, TextUploader, FileUploader",\n' +
+'  "RequestType": "POST",\n' +
+'  "RequestURL": "https://api.awau.moe/upload/pomf?key={{KEY}}",\n' +
+'  "FileFormName": "files[]",\n' +
+'  "ResponseType": "Text",\n' +
+'  "URL": "https://owo.whats-th.is/$json:files[0].url$"\n' +
+'}';
+
+// Blob download code taken from https://stackoverflow.com/a/19328891.
+submitBtn.onclick = function (e) {
+  e.preventDefault();
+  if (!uuidRegex.test(tokenInput.value)) {
+    return alert('Invalid token.');
+  }
+
+  var a = document.createElement('a');
+  document.body.appendChild(a);
+  a.style = 'display:none';
+
+  var sxcu = template.replace(templateToken, tokenInput.value);
+  var blob = new Blob([sxcu], {type: 'application/octet-stream'});
+  var url = window.URL.createObjectURL(blob);
+  a.href = url;
+  a.download = 'owo.sxcu';
+  a.click();
+  window.URL.revokeObjectURL(url);
+};
+</script></body></html>
