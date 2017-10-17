@@ -1,0 +1,98 @@
+# public-cdn-domains.txt change log. This file should be kept up to date with
+# changes to public-cdn-domains.txt. Dates should be placed newest first.
+
+# Oct 12, 2017
+- good-me.me
+- *.good-me.me
+
+# Oct 2, 2017
+- deanis.sexy # Removed due to registrar issues
+- i-have-a.fourchin.net # Removed due to non resolved
+- snek.lgbt # Renamed (see below)
++ i.snek.lgbt
+
+
+# Aug 30, 2017
++ *.are-la.me
++ *.bad-me.me
++ *.good-me.me
++ *.in-my.life
++ *.is-a-professional-domain.com
++ *.is-into.men
++ *.is-la.me
++ *.is-over.party
++ *.is-pretty.fun
++ *.is-real.life
++ *.needs-to-s.top
++ *.pls-fuck.me
++ *.should-be.legal
++ *.theworstme.me
++ *.while-at.school
++ b1nzy-pruned.us
++ bad-me.me
++ discord.coffee
++ good-me.me
++ i-need.discord.cards
++ i.not.ovh
++ kotlin-for.life
++ o.lol-sa.me
++ owo.sh
++ pantsu.review
++ pls-fuck.me
++ snek.lgbt
++ theworstme.me
++ why-are-you-buying-clothes-at.the-soup.store
++ whyisroadcrossercoolerthan.me
++ woah.this-is-a.site
+ 
+
+# May 7, 2017
++ *.banned.today
++ *.is-a-bad-waifu.com
++ *.is-a-good-waifu.com
++ *.is-bad.com
++ *.is-going-to.space
++ *.ratelimited.today
++ *.while-at.work
++ it-is.us
++ owo.solutions
+
+
+# Apr 28, 2017
++ *.are-pretty.sexy
++ *.is-fi.re
++ *.is-pretty.cool
++ *.is-pretty.sexy
++ *.is-serious.business
++ cat.girlsare.life
++ fox.girlsare.life
++ hack-my-mainfra.me
++ i-hate.dabbot.org
++ i-have-a.fourchin.net
++ i-was-scammed-by.dabbot.org
++ is-fi.re
++ ping-b1nzy.today
++ quak.ovh
++ quak.quak.ovh
++ requires.discord.gold
++ take-me-on-a.date
++ thats-a.link
+
+# Feb 18, 2017 (initial)
++ all.foxgirlsare.sexy
++ awau.moe
++ buttsare.sexy
++ can-i-ask-dean-on-a.date
++ catch-me-outside.how-about-th.at
++ deanis.sexy
++ how-about-th.at
++ i.am-a.ninja
++ i.stole-a-me.me
++ im.not.ovh
++ light-theme-hurts.my-ey.es
++ my.catgirl.party
++ nyanyanya.moe
++ owo.whats-th.is
++ this.is-a.dog
++ totally-not.a-sketchy.site
++ uwu.whats-th.is

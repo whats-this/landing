@@ -9,6 +9,8 @@
 #   - default-files: the default files CDN endpoint
 #   - default-links: the default link shortener CDN endpoint (and base URL
 #     returned by API)
+#
+# The changelog for this file is in public-cdn-domains.changelog.txt.
 
 # Default CDN endpoints
 default-files:owo.whats-th.is
@@ -19,7 +21,6 @@ default-links:awau.moe
 *.are-pretty.sexy
 *.bad-me.me
 *.banned.today
-*.good-me.me
 *.in-my.life
 *.is-a-bad-waifu.com
 *.is-a-good-waifu.com
@@ -52,18 +53,16 @@ buttsare.sexy
 can-i-ask-dean-on-a.date
 cat.girlsare.life
 catch-me-outside.how-about-th.at
-deanis.sexy
 discord.coffee
 fox.girlsare.life
-good-me.me
 hack-my-mainfra.me
 how-about-th.at
 i-hate.dabbot.org
-i-have-a.fourchin.net
 i-need.discord.cards
 i-was-scammed-by.dabbot.org
 i.am-a.ninja
 i.not.ovh
+i.snek.lgbt
 i.stole-a-me.me
 im.not.ovh
 is-fi.re
@@ -82,7 +81,6 @@ pls-fuck.me
 quak.ovh
 quak.quak.ovh
 requires.discord.gold
-snek.lgbt
 take-me-on-a.date
 thats-a.link
 theworstme.me
@@ -92,4 +90,3 @@ uwu.whats-th.is
 why-are-you-buying-clothes-at.the-soup.store
 whyisroadcrossercoolerthan.me
 woah.this-is-a.site
-
