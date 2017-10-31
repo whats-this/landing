@@ -23,6 +23,7 @@ default-links:awau.moe
 *.banned.today
 *.in-my.life
 *.is-a-bad-waifu.com
+*.is-a.dog
 *.is-a-good-waifu.com
 *.is-a-professional-domain.com
 *.is-bad.com
@@ -84,7 +85,6 @@ requires.discord.gold
 take-me-on-a.date
 thats-a.link
 theworstme.me
-this.is-a.dog
 totally-not.a-sketchy.site
 uwu.whats-th.is
 why-are-you-buying-clothes-at.the-soup.store
