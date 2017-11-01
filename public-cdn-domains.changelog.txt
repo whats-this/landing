@@ -2,8 +2,8 @@
 # changes to public-cdn-domains.txt. Dates should be placed newest first.
 
 # Oct 31, 2017
+- this.is-a.dog # Removed due to being wildcarded instead (see below)
 + *.is-a.dog
-- this.is-a.dog # Removed due to being wildcarded instead (see above)
 
 # Oct 12, 2017
 - good-me.me
