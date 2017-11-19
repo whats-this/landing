@@ -1,6 +1,6 @@
 # A public, machine-and-human-readable list of all the domains available for
 # accessing the whats-th.is CDN. CDN domains in this file are in alphabetical
-# order. 75 domains and counting.
+# order.
 #
 # Wildcards in this file are denoted by asterisks (*). Comment lines in this
 # file start with a pound sign (#). This file contains empty lines.
