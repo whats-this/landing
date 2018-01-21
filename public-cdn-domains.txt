@@ -77,7 +77,6 @@ pantsu.review
 ping-b1nzy.today
 pls-fuck.me
 quak.ovh
-requires.discord.gold
 take-me-on-a.date
 thats-a.link
 theworstme.me
