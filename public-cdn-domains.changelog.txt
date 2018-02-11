@@ -2,7 +2,7 @@
 # changes to public-cdn-domains.txt. Dates should be placed newest first.
 
 # Jan 21, 2018
-- requires.discord.gold # Removed due to (wanted) expiry
+- requires.discord.gold # Left to expire (renewal price is unsustainable)
 
 # Nov 19, 2017
 - i.not.ovh # Removed due to lack of use
