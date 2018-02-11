@@ -1,6 +1,10 @@
 # public-cdn-domains.txt change log. This file should be kept up to date with
 # changes to public-cdn-domains.txt. Dates should be placed newest first.
 
+# Feb 11, 2018
+- catch-me-outside.how-about-th.at
+- my.catgirl.party (lack of use)
+
 # Jan 21, 2018
 - requires.discord.gold # Left to expire (renewal price is unsustainable)
 
