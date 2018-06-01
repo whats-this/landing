@@ -5,6 +5,7 @@
 + *.might-be-super.fun
 + *.in-this.world
 + *.at-work.today
+- *.is-a.dog
 
 # Apr 22, 2018
 - it-is.us
