@@ -19,11 +19,12 @@ default-links:awau.moe
 # Wildcarded file CDN endpoints
 *.are-la.me
 *.are-pretty.sexy
+*.at-work.today
 *.bad-me.me
 *.banned.today
 *.in-my.life
+*.in-this.world
 *.is-a-bad-waifu.com
-*.is-a.dog
 *.is-a-good-waifu.com
 *.is-a-professional-domain.com
 *.is-bad.com
@@ -37,6 +38,7 @@ default-links:awau.moe
 *.is-pretty.sexy
 *.is-real.life
 *.is-serious.business
+*.might-be-super.fun
 *.needs-to-s.top
 *.pls-fuck.me
 *.ratelimited.today
@@ -55,14 +57,12 @@ can-i-ask-dean-on-a.date
 cat.girlsare.life
 discord.coffee
 fox.girlsare.life
-hack-my-mainfra.me
 i-hate.dabbot.org
 i-need.discord.cards
 i-was-scammed-by.dabbot.org
 i.am-a.ninja
 i.stole-a-me.me
 is-fi.re
-it-is.us
 kotlin-for.life
 light-theme-hurts.my-ey.es
 nyanyanya.moe
@@ -71,10 +71,8 @@ owo.sh
 owo.solutions
 owo.whats-th.is
 pantsu.review
-ping-b1nzy.today
 pls-fuck.me
 quak.ovh
-take-me-on-a.date
 thats-a.link
 theworstme.me
 totally-not.a-sketchy.site
