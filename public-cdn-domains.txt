@@ -19,9 +19,11 @@ default-links:awau.moe
 # Wildcarded file CDN endpoints
 *.are-la.me
 *.are-pretty.sexy
+*.at-work.today
 *.bad-me.me
 *.banned.today
 *.in-my.life
+*.in-this.world
 *.is-a-bad-waifu.com
 *.is-a.dog
 *.is-a-good-waifu.com
@@ -37,6 +39,7 @@ default-links:awau.moe
 *.is-pretty.sexy
 *.is-real.life
 *.is-serious.business
+*.might-be-super.fun
 *.needs-to-s.top
 *.pls-fuck.me
 *.ratelimited.today

@@ -1,6 +1,11 @@
 # public-cdn-domains.txt change log. This file should be kept up to date with
 # changes to public-cdn-domains.txt. Dates should be placed newest first.
 
+# Jun 1, 2018
++ *.might-be-super.fun
++ *.in-this.world
++ *.at-work.today
+
 # Apr 22, 2018
 - it-is.us
 - take-me-on-a.date

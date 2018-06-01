@@ -4,10 +4,9 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const pug = require('gulp-pug');
-const connect = require('gulp-connect');
 
-// Default task
-gulp.task('default', ['css', 'pug', 'webserver']);
+// Default task, runs css and pug tasks
+gulp.task('default', ['css', 'pug']);
 
 // CSS task, compiles SCSS into CSS in the assets directory
 gulp.task('css', () => {
@@ -33,8 +32,4 @@ gulp.task('pug', () => {
 gulp.task('watch', () => {
   gulp.watch('./src/scss/**/*', ['css']);
   gulp.watch('./src/views/**/*', ['pug']);
-});
-
-gulp.task('webserver', function() {
-  connect.server();
 });
