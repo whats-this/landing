@@ -5,11 +5,11 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "bourbon": "^4.3.2",
-    "bourbon-neat": "^1.8.0",
+    "bourbon": "^5.0.0",
+    "bourbon-neat": "^1.9.0",
     "gulp": "^3.9.1",
-    "gulp-pug": "^3.2.0",
-    "gulp-sass": "^3.1.0"
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1"
   },
   "repository": {
     "type": "git",
