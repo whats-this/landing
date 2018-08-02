@@ -50,7 +50,6 @@ default-links:awau.moe
 # Non-wildcarded CDN domains
 all.foxgirlsare.sexy
 awau.moe
-b1nzy-pruned.us
 bad-me.me
 buttsare.sexy
 can-i-ask-dean-on-a.date
@@ -63,7 +62,6 @@ i-was-scammed-by.dabbot.org
 i.am-a.ninja
 i.stole-a-me.me
 is-fi.re
-kotlin-for.life
 light-theme-hurts.my-ey.es
 nyanyanya.moe
 o.lol-sa.me
@@ -77,5 +75,3 @@ thats-a.link
 theworstme.me
 totally-not.a-sketchy.site
 uwu.whats-th.is
-why-are-you-buying-clothes-at.the-soup.store
-whyisroadcrossercoolerthan.me
