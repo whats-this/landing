@@ -19,24 +19,18 @@ default-links:awau.moe
 # Wildcarded file CDN endpoints
 *.are-la.me
 *.are-pretty.sexy
-*.at-work.today
 *.bad-me.me
 *.banned.today
-*.in-my.life
-*.in-this.world
 *.is-a-bad-waifu.com
 *.is-a-good-waifu.com
 *.is-a-professional-domain.com
 *.is-bad.com
 *.is-fi.re
-*.is-going-to.space
 *.is-into.men
 *.is-la.me
-*.is-over.party
 *.is-pretty.cool
 *.is-pretty.fun
 *.is-pretty.sexy
-*.is-real.life
 *.is-serious.business
 *.is-the-best.tech
 *.might-be-super.fun
@@ -44,26 +38,23 @@ default-links:awau.moe
 *.pls-fuck.me
 *.ratelimited.today
 *.should-be.legal
-*.theworstme.me
-*.while-at.school
-*.while-at.work
 
 # Non-wildcarded CDN domains
-all.foxgirlsare.sexy
 awau.moe
 bad-me.me
 buttsare.sexy
-can-i-ask-dean-on-a.date
 cat.girlsare.life
+chito.ge
 discord.coffee
+file.z0ne.moe
 fox.girlsare.life
 i-hate.dabbot.org
-i-need.discord.cards
 i-was-scammed-by.dabbot.org
 i.am-a.ninja
-i.stole-a-me.me
 is-fi.re
+ket.party
 light-theme-hurts.my-ey.es
+link.z0ne.moe
 nyanyanya.moe
 o.lol-sa.me
 owo.sh
@@ -72,7 +63,5 @@ owo.whats-th.is
 pantsu.review
 pls-fuck.me
 quak.ovh
-thats-a.link
-theworstme.me
 totally-not.a-sketchy.site
 uwu.whats-th.is

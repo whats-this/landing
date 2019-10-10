@@ -2,7 +2,26 @@
 # changes to public-cdn-domains.txt. Dates should be placed newest first.
 
 # Oct 10, 2019
-- *.is-the-best.tech
++ ket.party
++ chito.ge
++ file.z0ne.moe
++ link.z0ne.moe
++ *.is-the-best.tech
+- *.at-work.today # Domain expired
+- *.in-my.life # Domain expired
+- *.in-this.world # Domain expired
+- *.is-going-to.space # Domain expired
+- *.is-over.party # Domain expired
+- *.is-real.life # Domain expired
+- *.theworstme.me # Domain expired
+- *.while-at.school # Domain expired
+- *.while-at.work # Domain expired
+- all.foxgirlsare.sexy # Domain expired
+- can-i-ask-dean-on-a.date # Domain expired
+- i-need.discord.cards # Domain expired
+- i.stole-a-me.me # Domain expired
+- thats-a.link # Domain expired
+- theworstme.me # Domain expired
 
 # Aug 2, 2018
 - b1nzy-pruned.us
