@@ -38,6 +38,7 @@ default-links:awau.moe
 *.is-pretty.sexy
 *.is-real.life
 *.is-serious.business
+*.is-the-best.tech
 *.might-be-super.fun
 *.needs-to-s.top
 *.pls-fuck.me
