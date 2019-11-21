@@ -1,6 +1,25 @@
 # public-cdn-domains.txt change log. This file should be kept up to date with
 # changes to public-cdn-domains.txt. Dates should be placed newest first.
 
+# Nov 4, 2019 (expired domains)
+- all.foxgirlsare.sexy
+- can-i-ask-dean-on-a.date
+- i-need.discord.cards
+- i.stole-a-me.me
+- owo.solutions
+- thats-a.link
+- theworstme.me
+- *.at-work.today
+- *.in-my.life
+- *.in-this.world
+- *.is-going-to.space
+- *.is-over.party
+- *.is-pretty.fun
+- *.is-real.life
+- *.theworstme.me
+- *.while-at.school
+- *.while-at.work
+
 # Aug 2, 2018
 - b1nzy-pruned.us
 - kotlin-for.life
@@ -81,7 +100,6 @@
 + why-are-you-buying-clothes-at.the-soup.store
 + whyisroadcrossercoolerthan.me
 + woah.this-is-a.site
- 
 
 # May 7, 2017
 + *.banned.today
